@@ -1,5 +1,7 @@
 .header {
     background-color: rgb(100, 175, 245);
+    position: relative;
+    text-align: center;
 }
 
 .h_origin {
