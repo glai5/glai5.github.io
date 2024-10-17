@@ -1,48 +1,108 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
-    background-color: rgb(100, 175, 245);
+    background-color: #DBEFFF;
     position: relative;
     display: inline-block;
     text-align: center;
+    width: 100%;
 }
 
-.h_origin {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#sun {
+    float: left;
+    padding: 10px;
 }
 
-.h_school {
+#origin_cloud{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    float: right;
 }
 
-.h_skills {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#origin_text { 
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
 }
 
-.h_projects {
+#school_cloud{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    float: right;
 }
 
-.h_work {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#school_text {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
 }
 
-.h_hobbies {
+#skills_cloud{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    float: right;
+}
+
+#skills_text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+}
+
+#projects_cloud{
+    position: relative;
+    float: right;
+}
+
+#projects_text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+}
+
+#exp_cloud{
+    position: relative;
+    float: right;
+}
+
+#exp_text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+}
+
+#hobbies_cloud{
+    position: relative;
+    float: right;
+}
+
+#hobbies_text {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    transform: translate (-50%, -50%);
+    color: black;
+    font-size: 2.5em;
 }
