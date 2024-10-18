@@ -25,88 +25,16 @@ a {
     transform: scale(0.8);
 }
 
-#origin_cloud{
+#origin_cloud, #school_cloud, #skills_cloud, #projects_cloud, #exp_cloud, #hobbies_cloud{
     align-self: flex-end;
     margin-left: auto;  
     transform: scale(0.5);
+    flex-shrink: 1;
+    margin: 0;
+    padding: 0;
 }
 
-#origin_text { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 2.5em;
-}
-
-#school_cloud{
-    align-self: flex-end;
-    margin-left: auto;
-    transform: scale(0.5);
-}
-
-#school_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 2.5em;
-}
-
-#skills_cloud{
-    align-self: flex-end;
-    margin-left: auto; 
-    transform: scale(0.5);
-}
-
-#skills_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 2.5em;
-}
-
-#projects_cloud{
-    align-self: flex-end;
-    margin-left: auto; 
-    transform: scale(0.5);
-}
-
-#projects_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 2.5em;
-}
-
-#exp_cloud{
-    align-self: flex-end;
-    margin-left: auto; 
-    transform: scale(0.5);
-}
-
-#exp_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 2.5em;
-}
-
-#hobbies_cloud{
-    align-self: flex-end;
-    margin-left: auto; 
-    transform: scale(0.5);
-}
-
-#hobbies_text {
+#origin_text, #school_text, #skills_text, #projects_text, #exp_text, #hobbies_text { 
     position: absolute;
     top: 50%;
     left: 50%;
