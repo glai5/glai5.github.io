@@ -13,19 +13,21 @@ a {
 .header {
     background-color: #DBEFFF;
     position: relative;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
 #sun {
-    float: left;
+    align-self: flex-start;
+    margin-right: auto; 
     transform: scale(0.8);
 }
 
 #origin_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto;  
     transform: scale(0.5);
 }
 
@@ -39,8 +41,8 @@ a {
 }
 
 #school_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto;
     transform: scale(0.5);
 }
 
@@ -54,8 +56,8 @@ a {
 }
 
 #skills_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto; 
     transform: scale(0.5);
 }
 
@@ -69,8 +71,8 @@ a {
 }
 
 #projects_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto; 
     transform: scale(0.5);
 }
 
@@ -84,8 +86,8 @@ a {
 }
 
 #exp_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto; 
     transform: scale(0.5);
 }
 
@@ -99,8 +101,8 @@ a {
 }
 
 #hobbies_cloud{
-    position: relative;
-    float: right;
+    align-self: flex-end;
+    margin-left: auto; 
     transform: scale(0.5);
 }
 
@@ -111,4 +113,14 @@ a {
     transform: translate(-50%, -50%);
     color: black;
     font-size: 2.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #origin_cloud, #school_cloud, #skills_cloud, #projects_cloud, #exp_cloud, #hobbies_cloud {
+        transform: scale(0.3); 
+    }
+
+    #sun {
+        transform: scale(0.5); 
+    }
 }
