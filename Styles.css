@@ -29,7 +29,6 @@ a {
     align-self: flex-end;
     margin-left: auto;  
     transform: scale(0.5);
-    flex-shrink: 1;
     margin: 0;
     padding: 0;
 }
