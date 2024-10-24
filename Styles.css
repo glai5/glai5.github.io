@@ -61,6 +61,57 @@ a {
     width: 100%;
 }
 
+.bubble_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#intro_box {
+    background-image: linear-gradient(#BEECFF, #92C9E0);
+}
+
+#intro_bubble {
+    display: inline-block;
+    position: relative;
+    left: 44%;
+    img {
+        transform: scale(2);
+        height: auto;
+    }
+}
+
+#origin_box {
+    background-image: linear-gradient(#92C9E0, #668795);
+}
+
+#school_box {
+    background-image: linear-gradient(#668795, #396172);
+}
+
+#skills_box {
+    background-image: linear-gradient(#396172, #164458);
+}
+
+#projects_box {
+    background-image: linear-gradient(#164458, #072E3F);
+}
+
+#exp_box{
+    background-image: linear-gradient(#072E3F, #293F89);
+}
+
+#hobbies_box {
+    background-image: linear-gradient(#293F89, #04154A);
+}
+
+#bottom_box {
+    background-color: yellow;
+}
+
 #skills {
     margin-top: 100px;
     margin-bottom: 600px;
@@ -71,17 +122,6 @@ a {
 }
 
 #bottom {
-    position: absolute;
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-}
-
-.bubble_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
