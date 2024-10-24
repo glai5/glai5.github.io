@@ -52,20 +52,30 @@ a {
     }
 }
 
-#intro {
+.sections {
+    margin-top: 300px;
+    margin-bottom: 300px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     align-items: center;
     width: 100%;
 }
 
-#intro_bubble {
-    align-self: center;
-    margin-left: auto;  
-    transform: scale(0.5);
-    margin: 0;
-    padding: 0;
+#skills {
+    margin-top: 100px;
+    margin-bottom: 600px;
+}
+
+#exp {
+    margin-top: 600px;
+}
+
+#bottom {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 
 .bubble_text {
