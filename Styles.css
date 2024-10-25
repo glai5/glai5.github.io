@@ -105,11 +105,11 @@ a {
 }
 
 #hobbies_box {
-    background-image: linear-gradient(#293F89, #04154A);
+    background-image: linear-gradient(#293F89, #0d297c);
 }
 
 #bottom_box {
-    background-color: yellow;
+    background-color: rgb(197, 197, 113);
 }
 
 #skills {
@@ -124,4 +124,144 @@ a {
 #bottom {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#bubble_1 {
+    position: absolute;
+    left: 0%;
+    top: 700px;
+    transform: scale(0.5);
+}
+
+#bubble_2 {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    transform: scale(0.5);
+}
+
+#bubble_3 {
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    transform: scale(0.5);
+}
+
+#bubble_4 {
+    position: absolute;
+    left: 85%;
+    top: 60%;
+    transform: scale(0.5);
+}
+
+#bubble_5 {
+    position: absolute;
+    left: 0%;
+    top: 180%;
+    transform: scale(0.5);
+}
+
+#bubble_6 {
+    position: absolute;
+    left: 20%;
+    top: 125%;
+    transform: scale(0.5);
+}
+
+#bubble_7 {
+    position: absolute;
+    left: 65%;
+    top: 115%;
+    transform: scale(0.5);
+}
+
+#bubble_8 {
+    position: absolute;
+    left: 85%;
+    top: 160%;
+    transform: scale(0.5);
+}
+
+#bubble_9 {
+    position: absolute;
+    left: 0%;
+    top: 280%;
+    transform: scale(0.5);
+}
+
+#bubble_10 {
+    position: absolute;
+    left: 20%;
+    top: 225%;
+    transform: scale(0.5);
+}
+
+#bubble_11 {
+    position: absolute;
+    left: 65%;
+    top: 215%;
+    transform: scale(0.5);
+}
+
+#bubble_12 {
+    position: absolute;
+    left: 85%;
+    top: 260%;
+    transform: scale(0.5);
+}
+
+#bubble_13 {
+    position: absolute;
+    left: 0%;
+    top: 380%;
+    transform: scale(0.5);
+}
+
+#bubble_14 {
+    position: absolute;
+    left: 20%;
+    top: 325%;
+    transform: scale(0.5);
+}
+
+#bubble_15 {
+    position: absolute;
+    left: 65%;
+    top: 315%;
+    transform: scale(0.5);
+}
+
+#bubble_16 {
+    position: absolute;
+    left: 85%;
+    top: 360%;
+    transform: scale(0.5);
+}
+
+#bubble_17 {
+    position: absolute;
+    left: 0%;
+    top: 480%;
+    transform: scale(0.5);
+}
+
+#bubble_18 {
+    position: absolute;
+    left: 20%;
+    top: 425%;
+    transform: scale(0.5);
+}
+
+#bubble_19 {
+    position: absolute;
+    left: 65%;
+    top: 415%;
+    transform: scale(0.5);
+}
+
+#bubble_20 {
+    position: absolute;
+    left: 85%;
+    top: 460%;
+    transform: scale(0.5);
 }
